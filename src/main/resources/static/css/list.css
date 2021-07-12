@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+body{
+	margin: 0;
+}
+
+.nav-contatiner{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: darkslategrey;
+	list-style-type: none;
+	position:fixed;
+}
+.nav-item{
+	padding:15px;
+	cursor:pointer;
+}
+
+.nav-item a{
+	text-align:center;
+	text-decoration: none;
+	color:white;
+}
+
+.nav-item:hover{
+	background-color: grey;
+}
+
+
+
+.go_top{
+	width:40px;
+	height:40px;
+	position: fixed;
+	background:black;
+	color:#fff;
+	right:50px;
+	bottom:50px;
+	text-align:center;
+	line-height:40px;
+	display:none;
+}

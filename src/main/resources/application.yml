@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/gb2?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
+    username: gb
+    password: gb
+---
+spring:   mvc:
+    static-path-pattern: /resources/**    view:      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+server:
+  port: 9080
